@@ -19,7 +19,7 @@ jobs:
       # Set environment variables for update_designtime_artifact.sh
       - name: 'set env'
         run: |
-            echo "GIT_SRC_DIR=$GITHUB_WORKSPACE/DEMO/GITEST" >> $GITHUB_ENV
+            echo "GIT_SRC_DIR=$GITHUB_WORKSPACE/Z_Wassim/GITEST" >> $GITHUB_ENV
       # Upload/Update design time
       - name: 'Update/Upload Groovy XML Transformation to design time'
         run: /usr/bin/update_designtime_artifact.sh
